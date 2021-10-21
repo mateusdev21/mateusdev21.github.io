@@ -1,0 +1,41 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+
+@import "variables/color";
+@import "variables/footer";
+@import "variables/navbar";
+@import "variables/button";
+
+html {
+    body {
+        background-color: $dark;
+        padding: 0;
+
+        .container-fluid {
+            padding: 0;
+            margin: 0;
+            width: 100vw;
+        }
+
+        .jumbotron {
+            width: 100vw;
+            background-color: transparent;
+            padding: 10% 20% 10% 20%;
+            p {
+                color: white;
+                font-size: 1.2rem;
+                margin-bottom: 3vh;
+                font-family: 'Lusitana';
+            }
+            h1 {
+                color: white;
+                font-family: 'Raleway';
+                margin-bottom: 2vh;
+                line-height: 90%;
+                font-size: 5rem;
+            }
+        }
+    }
+}
