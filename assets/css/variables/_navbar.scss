@@ -1,0 +1,25 @@
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    width: 100vw;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    // line-height: 10%;
+    margin-bottom: 0;
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.nav-link {
+    font-family: 'Lusitana', 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: orangered !important;
+}

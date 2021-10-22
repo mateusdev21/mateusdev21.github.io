@@ -37,7 +37,18 @@ footer a:hover {
 }
 
 .navbar-brand {
-  font-family: 'Raleway';
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.navbar-brand p {
+  margin-bottom: 0;
+}
+
+.nav-link {
+  font-family: 'Lusitana', 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
 }
 
 .nav-link:hover {
@@ -52,6 +63,7 @@ footer a:hover {
 .btn-outline-primary:hover {
   background-color: orangered;
   border-color: orangered;
+  color: white;
 }
 
 html body {
@@ -73,16 +85,25 @@ html body .jumbotron {
 
 html body .jumbotron p {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 3vh;
-  font-family: 'Lusitana';
+  font-family: 'Lusitana', 'Times New Roman', Times, serif;
 }
 
 html body .jumbotron h1 {
   color: white;
-  font-family: 'Raleway';
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-weight: 700;
   margin-bottom: 2vh;
   line-height: 90%;
   font-size: 5rem;
+}
+
+html body footer a {
+  color: white;
+}
+
+html body footer a:hover {
+  color: orangered;
 }
 /*# sourceMappingURL=main.css.map */
